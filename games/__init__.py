@@ -717,14 +717,14 @@ games = {
         },
         gui='v3'),
 
-    'lgame': Game(
-        name='L-game',
+    'legrec': Game(
+        name='Le Grec',
         variants={
             'regular': Variant(
                 name='Regular',
                 data_provider=GamesmanClassic,
-                data_provider_game_id='Lgame',
-                data_provider_variant_id=2,
+                data_provider_game_id='legrec',
+                data_provider_variant_id=0,
                 gui='v3')
         },
         gui='v3'),
@@ -737,6 +737,18 @@ games = {
                 data_provider=GamesmanClassic,
                 data_provider_game_id='lewth',
                 data_provider_variant_id=0,
+                gui='v3')
+        },
+        gui='v3'),
+
+    'lgame': Game(
+        name='L-game',
+        variants={
+            'regular': Variant(
+                name='Regular',
+                data_provider=GamesmanClassic,
+                data_provider_game_id='Lgame',
+                data_provider_variant_id=2,
                 gui='v3')
         },
         gui='v3'),
